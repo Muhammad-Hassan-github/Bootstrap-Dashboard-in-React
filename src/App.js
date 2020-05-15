@@ -5,10 +5,11 @@ import SignUp from './components/SignUp'
 import Dashboard from './components/Dashboard'
 import New from './components/New'
 import './App.css';
-
+import Sidebar from './components/SideBar'
 function App() {
   return (
     <BrowserRouter className="App">
+      <Sidebar />
       <Switch>
       <Route exact path="/" component={Login} />
          <Route path="/signup" component={SignUp} />
