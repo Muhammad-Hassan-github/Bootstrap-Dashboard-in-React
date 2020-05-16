@@ -11,7 +11,7 @@ const SideBar = () => {
   return (
       <div>
            {/* <!-- Sidebar --> */}
-    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion shadow" id="accordionSidebar"  style={{background:"white",float:"left",border: "1px solid #e3e6f0",height:"900px"}}>
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion shadow" id="accordionSidebar"  style={{background:"white",float:"left",borderRight: "1px solid #e3e6f0",height:"900px"}}>
 
 {/* <!-- Sidebar - Brand --> */}
 <a class="sidebar-brand d-flex align-items-center justify-content-left" href="index.html">
