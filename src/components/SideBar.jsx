@@ -23,33 +23,33 @@ const SideBar = () => {
 
 {/* <!-- Nav Item - Dashboard --> */}
 <li class="nav-item active">
-  <a class="nav-link" href="index.html">
+  <Link class="nav-link" to="/home">
     <i class="fas fa-fw fa-home"  style={{color:"#ffc830"}}></i>
-    <span  style={{color:"black"}}>Home</span></a>
+    <span  style={{color:"black"}}>Home</span></Link>
 </li>
  {/* <!-- Nav Item - Dashboard --> */}
  <li class="nav-item active">
-  <a class="nav-link" href="index.html">
+  <Link class="nav-link" to="/table">
     <i class="fas fa-fw fa-home"  style={{color:"#ffc830"}}></i>
-    <span  style={{color:"black"}}>Mes campagnes</span></a>
+    <span  style={{color:"black"}}>Mes campagnes</span></Link>
 </li>
  {/* <!-- Nav Item - Dashboard --> */}
 <li class="nav-item active">
-  <a class="nav-link" href="index.html">
+  <Link class="nav-link" to="/chat">
     <i class="fas fa-fw fa-home"  style={{color:"#ffc830"}}></i>
-    <span  style={{color:"black"}}>Chat avec nos experts</span></a>
+    <span  style={{color:"black"}}>Chat avec nos experts</span></Link>
 </li>
  {/* <!-- Nav Item - Dashboard --> */}
  <li class="nav-item active">
-  <a class="nav-link" href="index.html">
+  <Link class="nav-link" to="/chart">
     <i class="fas fa-fw fa-home"  style={{color:"#ffc830"}}></i>
-    <span  style={{color:"black"}}>Statistiques</span></a>
+    <span  style={{color:"black"}}>Statistiques</span></Link>
 </li>
 
  {/* <!-- Nav Item - Dashboard --> */}
  <li class="nav-item active">
    <div style={{textAlign:"center",marginBottom:"10px"}}>
-  <button className="btn"  style={{background:"#ffc830",width:"200px" ,height:"50px",color:"black",fontWeight:"bolder"}}>Creer une campagne</button>
+  <button class="btn shadow mb-4"  style={{background:"#ffc830" ,height:"50px",color:"black",fontWeight:"bolder"}}>Creer une campagne</button>
   </div>
 </li>
 

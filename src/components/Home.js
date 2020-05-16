@@ -1,7 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import {useEffect} from 'react'
+import BG from './bg.jpeg'
+
+
 
 const SignUp = () => {
-   
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
   return (
 
     <body id="page-top" style={{height:"auto"}}>
@@ -191,12 +198,8 @@ const SignUp = () => {
         </nav>
         {/* <!-- End of Topbar --> */}
 
-       
-       {/* <------chart page ------start-------------> */}
-
-
         {/* <!-- Begin Page Content --> */}
-        <div class="container">
+        <div class="container-fluid">
 
           {/* <!-- Page Heading --> */}
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
@@ -205,123 +208,83 @@ const SignUp = () => {
 
           {/* <!-- Content Row --> */}
           <div class="row">
+
             {/* <!-- Earnings (Monthly) Card Example --> */}
             <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card  shadow">
+              <div class="card  shadow h-100 py-2">
                 <div class="card-body">
-                  <h6 class="m-0  text-secondary"  >Performance</h6>
-                  <h6 class="m-0 font-weight-bold" style={{color:"black"}}>Note AIMAD</h6>
-                     <div class="chart-pie">
-                    <canvas id="myPieChart"></canvas>   
-                 </div>
-                </div>
-              </div>
-            </div>
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-secondary text-uppercase mb-1">TOTAL TRAFFIC</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800">40,000</div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-calendar fa-2x " style={{color:"#fccb2e"}}></i>
+                    </div>
 
-             {/* <!-- Earnings (Monthly) Card Example --> */}
-             <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card  shadow">
-                <div class="card-body">
-                  <h6 class="m-0  text-secondary"  >Performance</h6>
-                  <h6 class="m-0 font-weight-bold" style={{color:"black"}}>Note AIMAD</h6>
-                     <div class="chart-pie">
-                    <canvas id="myPieChart"></canvas>   
-                 </div>
-                </div>
-              </div>
-            </div>
-
-             {/* <!-- Earnings (Monthly) Card Example --> */}
-             <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card  shadow">
-                <div class="card-body">
-                  <h6 class="m-0  text-secondary"  >Performance</h6>
-                  <h6 class="m-0 font-weight-bold" style={{color:"black"}}>Note AIMAD</h6>
-                     <div class="chart-pie">
-                    <canvas id="myPieChart"></canvas>   
-                 </div>
-                </div>
-              </div>
-            </div>
-
-             {/* <!-- Earnings (Monthly) Card Example --> */}
-             <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card  shadow">
-                <div class="card-body">
-                  <h6 class="m-0  text-secondary"  >Performance</h6>
-                  <h6 class="m-0 font-weight-bold" style={{color:"black"}}>Note AIMAD</h6>
-                     <div class="chart-pie">
-                    <canvas id="myPieChart"></canvas>   
-                 </div>
-                </div>
-              </div>
-            </div>
-
-
- {/* <!-- Earnings (Monthly) Card Example --> */}
- <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card  shadow">
-                <div class="card-body">
-                  <h6 class="m-0  text-secondary"  >Performance</h6>
-                  <h6 class="m-0 font-weight-bold" style={{color:"black"}}>Note AIMAD</h6>
-                     <div class="chart-pie">
-                    <canvas id="myPieChart"></canvas>   
-                 </div>
-                </div>
-              </div>
-            </div>
-
-
-             {/* <!-- Earnings (Monthly) Card Example --> */}
-             <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card  shadow">
-                <div class="card-body">
-                  <h6 class="m-0  text-secondary"  >Performance</h6>
-                  <h6 class="m-0 font-weight-bold" style={{color:"black"}}>Note AIMAD</h6>
-                     <div class="chart-pie card-body d-flex flex-wrap align-content-center justify-content-center">
-                       <h3>3.75%</h3>
-                 
-                 </div>
-                </div>
-              </div>
-            </div>
-
-
-
-             {/* <!-- Earnings (Monthly) Card Example --> */}
-             <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card  shadow">
-              <div class="pt-4 pl-4">
-                   <h6 class=" m-0  text-secondary">OVERVIEW</h6>
-                  <h6 class=" m-0 font-weight-bold" style={{color:"black"}}>Click Through Rate (CRT)</h6>                  
-                </div>
-                {/* <!-- Card Body --> */}
-                <div class="card-body pt-0 pb-0">
-                  <div class="chart-area">
-                    <canvas id="myAreaChart"></canvas>
                   </div>
                 </div>
+                    <div class="text-xs font-weight-bold text-secondary text-uppercase mb-1 ml-3"><span style={{color:"#78bda8",marginRight:"5px"}}>+3.14%</span>Since last month</div>
               </div>
             </div>
 
-
-
-             {/* <!-- Earnings (Monthly) Card Example --> */}
+            
+            {/* <!-- Earnings (Monthly) Card Example --> */}
             <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card  shadow">
+              <div class="card  shadow h-100 py-2">
                 <div class="card-body">
-                  <h6 class="m-0  text-secondary"  >Performance</h6>
-                  <h6 class="m-0 font-weight-bold" style={{color:"black"}}>Note AIMAD</h6>
-                     <div class="chart-pie">
-                    <canvas id="myPieChart"></canvas>   
-                 </div>
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-secondary text-uppercase mb-1">TOTAL TRAFFIC</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800">40,000</div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-calendar fa-2x " style={{color:"#fccb2e"}}></i>
+                    </div>
+
+                  </div>
                 </div>
+                    <div class="text-xs font-weight-bold text-secondary text-uppercase mb-1 ml-3"><span style={{color:"#78bda8",marginRight:"5px"}}>+3.14%</span>Since last month</div>
               </div>
             </div>
+            
+            {/* <!-- Earnings (Monthly) Card Example --> */}
+            <div class="col-xl-3 col-md-6 mb-4">
+              <div class="card  shadow h-100 py-2">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-secondary text-uppercase mb-1">TOTAL TRAFFIC</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800">40,000</div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-calendar fa-2x " style={{color:"#fccb2e"}}></i>
+                    </div>
 
+                  </div>
+                </div>
+                    <div class="text-xs font-weight-bold text-secondary text-uppercase mb-1 ml-3"><span style={{color:"#78bda8",marginRight:"5px"}}>+3.14%</span>Since last month</div>
+              </div>
+            </div>
+            
+            {/* <!-- Earnings (Monthly) Card Example --> */}
+            <div class="col-xl-3 col-md-6 mb-4">
+              <div class="card  shadow h-100 py-2">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-secondary text-uppercase mb-1">TOTAL TRAFFIC</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800">40,000</div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-calendar fa-2x " style={{color:"#fccb2e"}}></i>
+                    </div>
 
-
-
+                  </div>
+                </div>
+                    <div class="text-xs font-weight-bold text-secondary text-uppercase mb-1 ml-3"><span style={{color:"#78bda8",marginRight:"5px"}}>+3.14%</span>Since last month</div>
+              </div>
+            </div>
             </div>
 
           {/* <!-- Content Row --> */}
@@ -332,7 +295,6 @@ const SignUp = () => {
 
         </div>
         {/* <!-- /.container-fluid --> */}
-        
       </div>
       {/* <!-- End of Main Content --> */}
       <div class="row container-fluid" >
@@ -340,13 +302,42 @@ const SignUp = () => {
             {/* <!-- Area Chart --> */}
             <div class="col-xl-8 col-lg-7">
               <div class="card shadow mb-4">
-                {/* <!-- Card Heaer - Dropdown --> */}
-                
+                {/* <!-- Card Header - Dropdown --> */}
+                <div class="p-4">
+                <div style={{float:"right", marginTop:"-10"}} >
+                 <button  style={{background:"black",border:"none",color:"white", paddingLeft:"10px", padding:"11px 21px" ,marginRight:"5px" , borderRadius:"5px"}}>Month</button>
+                  <button style={{background:"white",border:"1px solid black" , padding:"10px 20px",borderRadius:"5px"}} >Week</button>
+                 </div>
+                   <h6 class=" m-0  text-secondary">OVERVIEW</h6>
+                  <h6 class=" m-0 font-weight-bold" style={{color:"black"}}>Click Through Rate (CRT)</h6>                  
+                </div>
+                {/* <!-- Card Body --> */}
+                <div class="card-body">
+                  <div class="chart-area">
+                    <canvas id="myAreaChart"></canvas>
+                  </div>
+                </div>
               </div>
             </div>
 
             {/* <!-- Pie Chart --> */}
-            
+            <div class="col-xl-4 col-lg-5">
+              <div class="card shadow mb-4">
+                {/* <!-- Card Header - Dropdown --> */}
+                <div class="p-4" >
+                  <h6 class="m-0  text-secondary"  >Performance</h6>
+                  <h6 class="m-0 font-weight-bold" style={{color:"black"}}>Note AIMAD</h6>
+
+                </div>
+                {/* <!-- Card Body --> */}
+                <div class="card-body">
+                  <div class="chart-pie pb-4">
+                    <canvas id="myPieChart"></canvas>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
           </div>
 
       {/* <!-- Footer --> */}

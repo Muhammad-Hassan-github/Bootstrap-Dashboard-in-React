@@ -8,6 +8,10 @@ import './App.css';
 import Sidebar from './components/SideBar'
 import Table from './components/Table'
 import Chart from './components/chart'
+import Chat from './components/chat'
+import Home from './components/Home'
+
+
 
 
 function App() {
@@ -17,8 +21,12 @@ function App() {
       <Switch>
       <Route exact path="/" component={Login}/>
          <Route path="/signup" component={SignUp}/>
+         <Route path="/home" component={Home}/>
+         
          <Route path="/table" component={Table}/>
          <Route path="/chart" component={Chart}/>
+         <Route path="/chat" component={Chat}/>
+
          <Route path="/dashboard" component={Dashboard}/>
          <Route path="/new" component={New}/>
       </Switch>

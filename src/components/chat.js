@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../App.css"
 const SignUp = () => {
    
   return (
@@ -191,147 +191,153 @@ const SignUp = () => {
         </nav>
         {/* <!-- End of Topbar --> */}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
        
-       {/* <------chart page ------start-------------> */}
+       {/* <------chat page ------start------------> */}
 
-
-        {/* <!-- Begin Page Content --> */}
-        <div class="container">
-
-          {/* <!-- Page Heading --> */}
-          <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 " style={{color:"white",fontFamily:"bold",fontWeight:"bolder"}}>Home</h1>
+       
+       <div class="container-fluid d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 " style={{color:"white",fontFamily:"bold",fontWeight:"bolder"}}>Chat aves nos experts</h1>
           </div>
 
-          {/* <!-- Content Row --> */}
-          <div class="row">
-            {/* <!-- Earnings (Monthly) Card Example --> */}
-            <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card  shadow">
-                <div class="card-body">
-                  <h6 class="m-0  text-secondary"  >Performance</h6>
-                  <h6 class="m-0 font-weight-bold" style={{color:"black"}}>Note AIMAD</h6>
-                     <div class="chart-pie">
-                    <canvas id="myPieChart"></canvas>   
-                 </div>
+ 
+
+
+
+       <div class="container-fluid">
+       <div class="card-header  py-3 d-flex flex-row align-items-center justify-content-between bg-white pt-5 pb-5">
+                  <h2 class="m-0" style={{color:"black"}}>Chat</h2>
+                  <button class="bg-white pl-4 pr-4 pt-2 pb-2  text-warning" style={{borderRadius:"5px" ,border:"1px solid #ffc830"}}>Message Msg Chat</button>
+              
                 </div>
-              </div>
-            </div>
-
-             {/* <!-- Earnings (Monthly) Card Example --> */}
-             <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card  shadow">
-                <div class="card-body">
-                  <h6 class="m-0  text-secondary"  >Performance</h6>
-                  <h6 class="m-0 font-weight-bold" style={{color:"black"}}>Note AIMAD</h6>
-                     <div class="chart-pie">
-                    <canvas id="myPieChart"></canvas>   
-                 </div>
-                </div>
-              </div>
-            </div>
-
-             {/* <!-- Earnings (Monthly) Card Example --> */}
-             <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card  shadow">
-                <div class="card-body">
-                  <h6 class="m-0  text-secondary"  >Performance</h6>
-                  <h6 class="m-0 font-weight-bold" style={{color:"black"}}>Note AIMAD</h6>
-                     <div class="chart-pie">
-                    <canvas id="myPieChart"></canvas>   
-                 </div>
-                </div>
-              </div>
-            </div>
-
-             {/* <!-- Earnings (Monthly) Card Example --> */}
-             <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card  shadow">
-                <div class="card-body">
-                  <h6 class="m-0  text-secondary"  >Performance</h6>
-                  <h6 class="m-0 font-weight-bold" style={{color:"black"}}>Note AIMAD</h6>
-                     <div class="chart-pie">
-                    <canvas id="myPieChart"></canvas>   
-                 </div>
-                </div>
-              </div>
-            </div>
-
-
- {/* <!-- Earnings (Monthly) Card Example --> */}
- <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card  shadow">
-                <div class="card-body">
-                  <h6 class="m-0  text-secondary"  >Performance</h6>
-                  <h6 class="m-0 font-weight-bold" style={{color:"black"}}>Note AIMAD</h6>
-                     <div class="chart-pie">
-                    <canvas id="myPieChart"></canvas>   
-                 </div>
-                </div>
-              </div>
-            </div>
-
-
-             {/* <!-- Earnings (Monthly) Card Example --> */}
-             <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card  shadow">
-                <div class="card-body">
-                  <h6 class="m-0  text-secondary"  >Performance</h6>
-                  <h6 class="m-0 font-weight-bold" style={{color:"black"}}>Note AIMAD</h6>
-                     <div class="chart-pie card-body d-flex flex-wrap align-content-center justify-content-center">
-                       <h3>3.75%</h3>
-                 
-                 </div>
-                </div>
-              </div>
-            </div>
-
-
-
-             {/* <!-- Earnings (Monthly) Card Example --> */}
-             <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card  shadow">
-              <div class="pt-4 pl-4">
-                   <h6 class=" m-0  text-secondary">OVERVIEW</h6>
-                  <h6 class=" m-0 font-weight-bold" style={{color:"black"}}>Click Through Rate (CRT)</h6>                  
-                </div>
-                {/* <!-- Card Body --> */}
-                <div class="card-body pt-0 pb-0">
-                  <div class="chart-area">
-                    <canvas id="myAreaChart"></canvas>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-
-             {/* <!-- Earnings (Monthly) Card Example --> */}
-            <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card  shadow">
-                <div class="card-body">
-                  <h6 class="m-0  text-secondary"  >Performance</h6>
-                  <h6 class="m-0 font-weight-bold" style={{color:"black"}}>Note AIMAD</h6>
-                     <div class="chart-pie">
-                    <canvas id="myPieChart"></canvas>   
-                 </div>
-                </div>
-              </div>
-            </div>
-
-
-
-
-            </div>
-
-          {/* <!-- Content Row --> */}
-
+<div class="messaging">
+      <div class="inbox_msg bg-white">
+        <div class="inbox_people">
           
-
-          
-
+          <div class="inbox_chat bg-white" style={{overflow:"auto"}}>
+            <div class="chat_list active_chat">
+              <div class="chat_people">
+                <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"/> </div>
+                <div class="chat_ib">
+                  <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
+                  <p>Test, which is a new approach to have all solutions 
+                    astrology under one roof.</p>
+                </div>
+              </div>
+            </div>
+            <div class="chat_list">
+              <div class="chat_people">
+                <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"/> </div>
+                <div class="chat_ib">
+                  <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
+                  <p>Test, which is a new approach to have all solutions 
+                    astrology under one roof.</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="chat_list">
+              <div class="chat_people">
+                <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"/> </div>
+                <div class="chat_ib">
+                  <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
+                  <p>Test, which is a new approach to have all solutions 
+                    astrology under one roof.</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        {/* <!-- /.container-fluid --> */}
+        <div class="mesgs bg-white">
+          <div class="msg_history">
+            <div class="incoming_msg">
+              <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"/> </div>
+              <div class="received_msg">
+                <div class="received_withd_msg">
+                  <p>Test which is a new approach to have all
+                    solutions</p>
+                  <span class="time_date"> 11:01 AM    |    June 9</span></div>
+              </div>
+            </div>
+            <div class="outgoing_msg">
+              <div class="sent_msg">
+                <p>Test which is a new approach to have all
+                  solutions</p>
+                <span class="time_date"> 11:01 AM    |    June 9</span> </div>
+            </div>
+            <div class="incoming_msg">
+              <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"/> </div>
+              <div class="received_msg">
+                <div class="received_withd_msg">
+                  <p>Test, which is a new approach to have</p>
+                  <span class="time_date"> 11:01 AM    |    Yesterday</span></div>
+              </div>
+            </div>
+            <div class="outgoing_msg">
+              <div class="sent_msg">
+                <p>Apollo University, Delhi, India Test</p>
+                <span class="time_date"> 11:01 AM    |    Today</span> </div>
+            </div>
+     
+
+            <div class="type_msg" style={{border:"none"}}>
+            <div class="chat_img  mr-1 mt-4" style={{float:"left"}}> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"/> </div>
+
+            <div class="input_msg_write">
+              
+              <input type="text" class="pt-5 pb-5"  style={{border:"1px solid  #ffc830"  , float:"left",width:"70%"}} placeholder="Type a message" />
+              <button class="btn pt-2 pb-2 pl-4 pr-4 bg-warning shadow ml-2 mt-5 " style={{float:"left",color:"black",borderRadius:"4px"}}>Envoyer</button>
+            </div>
+          </div>
+          </div>
+          
+        </div>
+      </div>
+      
+      
+    
+      
+    </div></div>
+
+       {/* <------chat page ------End------------> */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         
       </div>
       {/* <!-- End of Main Content --> */}
